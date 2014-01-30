@@ -20,7 +20,7 @@ int main(int argc, char const *argv[])
 		if (state == OUT && c != '/' && last_c != '/')
 			putchar(last_c);
 		
-		last_c = c;
+		   last_c = c;
 	}
 	
 	return 0;
