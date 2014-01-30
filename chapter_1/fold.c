@@ -22,7 +22,7 @@ int main(int argc, char const *argv[])
 				i = 0;
 			}
 			
-			printf("%s\n", word);
+			printf("%s", word);
 		}
 		else
 			word[j++] = c;
